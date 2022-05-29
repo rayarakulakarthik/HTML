@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: greenyellow;
+        }
+        
+        fieldset {
+            background-color: greenyellow;
+        }
+        
+        div {
+            text-align: center;
+            margin: 20px;
+        }
+        
+        a {
+            margin: 30px;
+        }
+        
+        label,
+        input {
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <a href="home.html">Home</a>
+        <a href="about us.html">About Us</a>
+        <a href="Gallary.html">Gallary</a>
+        <a href="Contact Us.html">Contact Us</a>
+        <h2>Contact US</h2>
+
+        <fieldset>
+            <div>
+                <label for="user">UserName</label>
+                <input type="text" id="user" name="username" required>
+                <br><br>
+
+                <Label for="psw">Password</Label>
+                <input type="password" id="psw" name="password" required>
+                <br><br>
+
+                <label for="Pn">Phone Number</label>
+                <input type="text" id="Pn" pattern="[0-9]{10}" required name="PHN">
+
+                <br><br>
+                <label for="mail">Email Id</label>
+                <input type="text" id="mail" required>
+                <br><br>
+
+                <label for="">Gender</label>
+                <input type="radio" name="gender" required>Male
+                <input type="radio" name="gender" required>Female
+                <br><br>
+
+                <input type="submit" value="Login ">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
